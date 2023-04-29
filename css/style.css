@@ -1,0 +1,101 @@
+:root {
+  --cor-primaria: #160012;
+  --cor-secundaria: #f2f2f2;
+  --cor-fonte: #333;
+}
+
+body {
+  background-color: var(--cor-primaria);
+}
+
+.site-header {
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(253, 253, 253, 0.1);
+}
+
+.site-header a {
+  font-size: 20px;
+  color: var(--cor-fonte);
+  margin: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+header {
+  background-color: var(--cor-secundaria);
+  padding: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+.foto {
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 50%;
+}
+.foto img {
+  max-width: 25%;
+  border: 5px solid rgb(195, 1, 1);
+  border-radius: 50%;
+}
+
+.sobre {
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.nome {
+  color: rgb(214, 52, 52);
+
+}
+
+.formacao {
+  color: rgb(47, 221, 76);
+}
+
+.cursos {
+  color: rgb(47, 221, 76);
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.icones a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.icones i {
+  font-size: 36px;
+  color: #333; 
+  background-color: #fff; 
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.icones i:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
